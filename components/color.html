@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>컬러시스템</title>
+  <link href="/css/common.css" rel="stylesheet">
+  <style>
+    .flex-col{display: flex; flex-direction: column; 
+      align-items: center; gap: 8px;}
+    .flex-row{display: flex; flex-direction: row; 
+      column-gap: 32px; row-gap: 16px;
+      justify-content: center; flex-wrap: wrap;}
+    .color-frame{width: 100px; height: 120px; border-radius: 8px;}
+  </style>
+</head>
+<body>
+
+  <div class="wrap pt-16" style="width: 600px;">
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mtb-16">ㆍPrimary Color</div>
+      <div class="font-16-r text-light mtb-8 pl-24">
+        class="bg-primary" (배경색)<br/>
+        class="text-primary" (폰트 컬러로 사용시)
+      </div>
+    </div>
+    <div class="items col-span-6 flex-col">
+      <div class="bg-primary color-frame"></div>
+      <div class="text-primary">#2F2B71</div>
+    </div>
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mtb-16">ㆍSub Color</div>
+    </div>
+    <div class="items col-span-6 flex-row">
+      <div class="flex-col">
+        <div class="font-16-r text-light">class="bg-dark"<br/>class="text-dark"</div>
+        <div class="bg-dark color-frame"></div>
+        <div class="text-dark">#4D498E</div>
+      </div>
+      <div class="flex-col">
+        <div class="font-16-r text-light">class="bg-semi"<br/>class="text-semi"</div>
+        <div class="bg-semi color-frame"></div>
+        <div class="text-semi">#726FAA</div>
+      </div>
+      <div class="flex-col">
+        <div class="font-16-r text-light">class="bg-light"<br/>class="text-light"</div>
+        <div class="bg-light color-frame"></div>
+        <div class="text-light">#9E9CC8</div>
+      </div>
+    </div>
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mt-32">ㆍLogo</div>
+      <div class="font-16-r text-light mt-8 pl-24">
+        logo 이미지 경로 "/images/logo.svg"
+      </div>
+    </div>
+    <div class="items col-span-4-center p-24">
+      <img src="/images/logo.svg" />
+    </div>
+    <div class="items col-span-6 mtb-24">
+      <button class="btn-secondary" onclick="location.href='/index.html'">뒤로가기</button>
+    </div>
+  </div>
+  
+</body>
+</html>

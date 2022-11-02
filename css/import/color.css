@@ -1,0 +1,256 @@
+/* ======================================================== */
+/* color default */
+/* ======================================================== */
+body {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* ======================================================== */
+/* Main colors (미지정) */
+/* ======================================================== */
+/* Primary color */
+.bg-primary {
+  background-color: #2F2B71 !important;
+}
+.text-primary {
+  color: #2F2B71 !important;
+}
+.border-primary {
+  border-color: #2F2B71 !important;
+}
+
+/* Dark_Violet color */
+.bg-dark {
+  background-color: #4D498E !important;
+}
+.text-dark {
+  color: #4D498E !important;
+}
+.border-dark {
+  border-color: #4D498E !important;
+}
+
+/* Semi_Violet color */
+.bg-semi {
+  background-color: #726FAA !important;
+}
+.text-semi {
+  color: #726FAA !important;
+}
+.border-semi {
+  border-color: #726FAA !important;
+}
+
+/* Light_Violet color */
+.bg-light {
+  background-color: #9E9CC8 !important;
+}
+.text-light {
+  color: #9E9CC8 !important;
+}
+.border-light {
+  border-color: #9E9CC8 !important;
+}
+
+/* bg-gradient */
+.bg-gradient{background: linear-gradient(90deg, #2E3092 0%, #00ADEF 49.48%, #C7EFFF 100%) !important;}
+.text-gradient{color: linear-gradient(90deg, #2E3092 0%, #00ADEF 49.48%, #C7EFFF 100%) !important;}
+.border-gradient{border-color: linear-gradient(90deg, #2E3092 0%, #00ADEF 49.48%, #C7EFFF 100%) !important;}
+
+/* ======================================================== */
+/* Gray Scale */
+/* ======================================================== */
+.bg-gray-900 {
+  background-color: #222222 !important;
+}
+.text-gray-900 {
+  color: #222222 !important;
+}
+.border-gray-900 {
+  border-color: #222222 !important;
+}
+
+.bg-gray-800 {
+  background-color: #3D3E43 !important;
+}
+.text-gray-800 {
+  color: #3D3E43 !important;
+}
+.border-gray-800 {
+  border-color: #3D3E43 !important;
+}
+
+.bg-gray-700 {
+  background-color: #595A64 !important;
+}
+.text-gray-700 {
+  color: #595A64 !important;
+}
+.border-gray-700 {
+  border-color: #595A64 !important;
+}
+
+.bg-gray-600 {
+  background-color: #6B6D7A !important;
+}
+.text-gray-600 {
+  color: #6B6D7A !important;
+}
+.border-gray-600 {
+  border-color: #6B6D7A !important;
+}
+
+.bg-gray-500 {
+  background-color: #7E8190 !important;
+}
+.text-gray-500 {
+  color: #7E8190 !important;
+}
+.border-gray-500 {
+  border-color: #7E8190 !important;
+}
+
+.bg-gray-400 {
+  background-color: #ACB0BD !important;
+}
+.text-gray-400 {
+  color: #ACB0BD !important;
+}
+.border-gray-400 {
+  border-color: #ACB0BD !important;
+}
+
+.bg-gray-300 {
+  background-color: #C8CAD3 !important;
+}
+.text-gray-300 {
+  color: #C8CAD3 !important;
+}
+.border-gray-300 {
+  border-color: #C8CAD3 !important;
+}
+
+.bg-gray-200 {
+  background-color: #E3E4E9 !important;
+}
+.text-gray-200 {
+  color: #E3E4E9 !important;
+}
+.border-gray-200 {
+  border-color: #E3E4E9 !important;
+}
+
+.bg-gray-100 {
+  background-color: #F0F1F5 !important;
+}
+.text-gray-100 {
+  color: #F0F1F5 !important;
+}
+.border-gray-100 {
+  border-color: #F0F1F5 !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.border-white {
+  border-color: #ffffff !important;
+}
+
+.text-red{color: red;}
+
+/* ======================================================== */
+/* none color */
+/* ======================================================== */
+.bg-none {
+  background-color: transparent !important;
+}
+.text-none {
+  color: transparent !important;
+}
+.border-none {
+  border-color: transparent !important;
+}
+
+/* ======================================================== */
+/* Shadows */
+/* ======================================================== */
+.shadow {
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.08), 0px 6px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* ======================================================== */
+/* opacity */
+/* ======================================================== */
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-05 {
+  opacity: 0.05 !important;
+}
+.opacity-10 {
+  opacity: 0.1 !important;
+}
+.opacity-15 {
+  opacity: 0.15 !important;
+}
+.opacity-20 {
+  opacity: 0.2 !important;
+}
+.opacity-25 {
+  opacity: 0.25 !important;
+}
+.opacity-30 {
+  opacity: 0.3 !important;
+}
+.opacity-35 {
+  opacity: 0.35 !important;
+}
+.opacity-40 {
+  opacity: 0.4 !important;
+}
+.opacity-45 {
+  opacity: 0.45 !important;
+}
+.opacity-50 {
+  opacity: 0.5 !important;
+}
+.opacity-55 {
+  opacity: 0.55 !important;
+}
+.opacity-60 {
+  opacity: 0.6 !important;
+}
+.opacity-65 {
+  opacity: 0.65 !important;
+}
+.opacity-70 {
+  opacity: 0.7 !important;
+}
+.opacity-75 {
+  opacity: 0.75 !important;
+}
+.opacity-80 {
+  opacity: 0.8 !important;
+}
+.opacity-85 {
+  opacity: 0.85 !important;
+}
+.opacity-90 {
+  opacity: 0.9 !important;
+}
+.opacity-95 {
+  opacity: 0.95 !important;
+}
+.opacity-1 {
+  opacity: 1 !important;
+}
+
+
+
+
+

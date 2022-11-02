@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Lime-EDU Login Form</title>
+  <link href="/css/common.css" rel="stylesheet">
+  <!-- 폰트어썸아이콘 설정 -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--jquery설정 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+    html, body{overflow-y: auto; background: #fff;}
+    .header{background: #4D498E !important;
+      display: grid; grid-template-columns: repeat(1, minmax(0, 1fr));}
+    .title{font-size: 72px; line-height: 80px; color: #F0F1F5; font-weight: 600;}
+    main{
+      display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;  /* TWEENER - IE 10 */
+      display: -webkit-flex; /* NEW - Chrome */
+      display: flex;         /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      height: 100%;
+    }
+    main > .contents{flex: 1;}
+    .container{display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); padding: 40px 16px;}
+    aside{background: #f3f3fa; min-width: 240px; font-size: 16px; line-height: 24px;}
+    aside > div{padding: 16px;}
+    aside > ul{padding: 0 16px 32px 16px;}
+    aside > ul li{color: #9CA3AF; padding-bottom: 8px;}
+    aside > ul li a:hover{color: #4D498E;}
+    aside > ul li:nth-child(1){font-weight: 600; color: #111827}
+    .contents h1{font-size: 40px; line-height: 48px; font-weight: 600;}
+    .contents h2{font-size: 24px; line-height: 32px; font-weight: 400;}
+    .contents aside{background: #fff !important;}
+  </style>
+</head>
+<body>
+  <!-- Document Header -->
+  <div class="header p-40">
+    <div class="title">
+      <a href="/index.html">LIME-EDU</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Aside Menu -->
+    <aside>
+      <div>Design System<br/>Document 0.0.1</div>
+      <ul>
+        <li>Components</li>
+        <li><a href="/components/color.html">Color</a></li>
+        <li><a href="/components/form.html">Form</a></li>
+        <li><a href="/components/button.html">Button</a></li>
+        <li><a href="/components/modal.html">Modal</a></li>
+      </ul>
+      <ul>
+        <li>version</li>
+        <li><a href="/index.html">화면 설계 v1.0</a></li>
+      </ul>
+    </aside>
+
+    <div class="contents">
+      <div class="container">
+          <h1>로그인 화면 설계 V 1.0</h1>
+          <aside>
+            <h2 class="mt-40 mb-8">퍼블리싱 화면 링크</h2>
+            <ul class="pb-8">
+              <li>1.0.0 - 로그인 <span class="text-red"></span></li>
+              <li><a href="/html_pages/[1.0.0]login.html">1.0.0 - 로그인</a> <span class="underline">([1.0.0]login.html)</span></li>
+            </ul>
+            <ul class="pb-8">
+              <li>2.0.0 - 회원가입 <span class="text-red"></span></li>
+              <li><a href="/html_pages/[2.0.0]signUp.html">2.0.0 - 회원가입</a> <span class="underline">([2.0.0]signUp.html)</span></li>
+              <li><a href="/html_pages/[2.1.0]signUpModal.html">2.1.0 - 회원가입 완료</a> <span class="underline">([2.1.0]signUpModal.html)</span></li>
+            </ul>
+            <ul class="pb-8">
+              <li>3.0.0 - 비밀번호 찾기 <span class="text-red"></span></li>
+              <li><a href="/html_pages/[3.0.0]forgotPw.html">3.0.0 - 비밀번호 찾기</a> <span class="underline">([3.0.0]forgotPw.html)</span></li>
+              <li><a href="/html_pages/[3.1.0]changePw.html">3.1.0 - 비밀번호 변경</a> <span class="underline">([3.1.0]changePw.html)</span></li>
+              <li><a href="/html_pages/[3.2.0]changePwModal.html">3.2.0 - 비밀번호 변경 완료</a> <span class="underline">([3.2.0]changePwModal.html)</span></li>
+            </ul>
+            <ul class="pb-8">
+              <li>4.0.0 - 아아디 찾기 <span class="text-red"></span></li>
+              <li><a href="/html_pages/[4.0.0]forgotId.html">4.0.0 - 아이디 찾기</a> <span class="underline">([4.0.0]forgoId.html)</span></li>
+              <li><a href="/html_pages/[4.1.0]forgotIdModal.html">4.1.0 - 아이디 찾기 완료</a> <span class="underline">([4.1.0]forgoIdModal.html)</span></li>
+            </ul>
+          </aside>
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+  
+</body>
+<script>
+  
+
+</script>
+</html>

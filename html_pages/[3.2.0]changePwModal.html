@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>비밀번호 변경 완료 페이지</title>
+  <link href="/css/common.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 실제 소스 적용할때는 메인으로 가는 버튼은 제외하고 적용해주세요 -->
+  <button class="btn-secondary" onclick="location.href='/index.html'">메인으로</button>
+  
+
+  <div class="wrap ptb-32">
+    <div class="col-span-6 mb-40">
+      <div class="font-26-b ptb-20">비밀번호 변경</div>
+    </div>
+
+    <div class="col-span-6 pb-16">
+      <div class="label-form">
+        <label class="label">새 비밀번호</label>
+        <div class="icon-form">
+          <input type="text" class="pw" placeholder="새 비밀번호를 입력하세요." />
+          <button class="icon-button"><img src="/images/icon-eye.svg"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-6 pb-74">
+      <div class="label-form">
+        <label class="label">새 비밀번호 확인</label>
+        <div class="icon-form">
+          <input type="text" class="pw" placeholder="새 비밀번호를 입력하세요." />
+          <button class="icon-button"><img src="/images/icon-eye.svg"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-6 pb-16">
+      <button class="btn-primary">비밀번호 변경</button>
+    </div>
+    
+    <!-- 모달 mask처리 -->
+    <div class="modal-mask"></div>
+  </div>
+
+  <!-- class="show" / class="no-show" 로 모달 숨김제어 -->
+  <div class="modal-wrap show">
+    <div class="modal">
+      <div class="modal-title">알림</div>
+      <div class="modal-text">비밀번호가 변경되었습니다.</div>
+      <button class="btn-modal" onclick="location.href='/index.html'">로그인 화면으로</button>
+    </div>
+  </div>
+
+</body>
+</html>

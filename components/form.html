@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Form 요소</title>
+  <link href="/css/common.css" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="wrap pt-16">
+
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mt-16">ㆍBasic Form</div>
+      <div class="font-16-r text-light mtb-8 pl-20">
+        class="label-form"
+      </div>
+    </div>
+    <div class="itmes col-span-6">
+      <div class="label-form">
+        <label class="label">성명</label>
+        <input type="text" placeholder="이름을 입력하세요." />
+      </div>
+    </div>
+
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mt-32">ㆍIcon Form</div>
+      <div class="font-16-r text-light mtb-8 pl-20">
+        class="icon-form"
+      </div>
+    </div>
+    <div class="itmes col-span-6">
+      <div class="label-form">
+        <label class="label">비밀번호</label>
+        <div class="icon-form">
+          <input type="text" class="pw" placeholder="비밀번호를 입력하세요." />
+          <button class="icon-button"><img src="/images/icon-eye.svg"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mt-32">ㆍButton Form</div>
+      <div class="font-16-r text-light mtb-8 pl-20">
+        class="btn-form"
+      </div>
+    </div>
+    <div class="itmes col-span-6">
+      <div class="label-form">
+        <label class="label">아이디</label>
+        <div class="btn-form">
+          <input type="text" placeholder="아이디를 입력하세요." />
+          <button class="btn-secondary">중복확인</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="items col-span-6">
+      <div class="font-20-r text-light mt-32">ㆍReadonly Status</div>
+      <div class="font-16-r text-light mtb-8 pl-20">
+        &lt;input type="text" value="ijjang" <span class="text-red">readonly</span> /&gt;
+      </div>
+    </div>
+    <div class="items col-span-4-center pb-24">
+      <input type="text" class="text-c" value="ijjang" readonly />
+    </div>
+
+    <div class="items col-span-6 mtb-24">
+      <button class="btn-secondary" onclick="location.href='/index.html'">뒤로가기</button>
+    </div>
+  </div>
+
+</body>
+</html>
