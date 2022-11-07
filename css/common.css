@@ -5,7 +5,6 @@
 
 /* Common */
 body{
-  /* min-width: 1440px;  */
   overflow-x: hidden;
   background: #F1F1F1;
 }
@@ -31,17 +30,8 @@ body{
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
   grid-gap: 16px; gap: 16px; row-gap: 0;
   padding: 0 16px;
-  /* padding-left: 16px; */
   overflow-y: hidden;
 }
-/* .wrap .items{margin-right: 16px;} */
-.wrap .items:nth-of-type(1){-ms-grid-column: 1 / 7;}
-.wrap .items:nth-of-type(2){-ms-grid-column: 2;}
-.wrap .items:nth-of-type(3){-ms-grid-column: 3;}
-.wrap .items:nth-of-type(4){-ms-grid-column: 4;}
-.wrap .items:nth-of-type(5){-ms-grid-column: 5;}
-.wrap .items:nth-of-type(6){-ms-grid-column: 6;}
-
 
 /* =================================================== */
 /* Form */
@@ -176,7 +166,6 @@ input[type="text"]:read-only:focus{
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-
 .modal-mask{
   background-color: #000;
   opacity: 0.5;
@@ -187,7 +176,6 @@ input[type="text"]:read-only:focus{
   left: 0;
   z-index: 1;
 }
-
 
 /* Logo */
 .logo-wrap{
