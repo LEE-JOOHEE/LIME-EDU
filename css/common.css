@@ -104,25 +104,37 @@ input[type="text"]:read-only:focus{
   background: #4D498E;
 }
 /* Secondary button */
-.btn-secondary{
-  width: 100%; height: 38px;
+[class^="btn-secondary"]{
+  width: 100%;
   background: #FFFFFF;
   color: #ACB0BD;
-  font-size: 16px; font-weight: 400;
+  font-weight: 400;
   border: 1px solid #E3E4E9;
-  padding: 7px 0;
 }
-.btn-secondary:hover{
+.btn-secondary{
+  height: 38px; font-size: 16px; padding: 7px 0;
+}
+.btn-secondary-42{
+  height: 42px; font-size: 18px; color: #2F2B71; padding: 9px 0;
+}
+[class^="btn-secondary"]:hover{
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.08);
 }
+
 /* Text button */
 .btn-text{
-  font-size: 16px; font-weight: 400;
+  font-size: 15px; font-weight: 400;
   color: #ACB0BD;
   cursor: pointer;
 }
 .btn-text:hover{
   border-bottom: 1px solid #ACB0BD;
+}
+.btn-text-group{
+  text-align: center;
+}
+.btn-text-group > span{
+  color: #E3E4E9; margin: 0 8px;
 }
 
 /* =================================================== */
@@ -154,6 +166,7 @@ input[type="text"]:read-only:focus{
   padding: 16px 0;
   margin: 8px 0;
 }
+.modal-text > b{font-weight: 600;}
 .btn-modal{
   width: 100%;
   border-top: 1px solid #E3E4E9;
